@@ -1,0 +1,149 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.0 Build 178 05/31/2012 SJ Web Edition
+# Date created = 19:59:30  September 21, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ulala_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ula
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:59:30  SEPTEMBER 21, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SEARCH_PATH db
+set_global_assignment -name SEARCH_PATH bloquinhos
+set_global_assignment -name SEARCH_PATH "d:\\projeto"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -entity ulala -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity ulala -section_id "Root Region"
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name BDF_FILE decot.bdf
+set_global_assignment -name BDF_FILE A_ou_Ac2.bdf
+set_global_assignment -name BDF_FILE AornotA.bdf
+set_global_assignment -name BDF_FILE and_bit_vetor.bdf
+set_global_assignment -name BDF_FILE Comp2.bdf
+set_global_assignment -name BDF_FILE "comparador modular.bdf"
+set_global_assignment -name BDF_FILE complemento2parasoma.bdf
+set_global_assignment -name BDF_FILE complementoa2.bdf
+set_global_assignment -name BDF_FILE complmentoa2tipo2.bdf
+set_global_assignment -name BDF_FILE decod.bdf
+set_global_assignment -name BDF_FILE decodnovo.bdf
+set_global_assignment -name BDF_FILE FA.bdf
+set_global_assignment -name BDF_FILE funcao_and.bdf
+set_global_assignment -name BDF_FILE funcao_igual.bdf
+set_global_assignment -name BDF_FILE funcao_maiorque.bdf
+set_global_assignment -name BDF_FILE funcao_xor.bdf
+set_global_assignment -name BDF_FILE halfadd.bdf
+set_global_assignment -name BDF_FILE maiorque.bdf
+set_global_assignment -name BDF_FILE mux.bdf
+set_global_assignment -name BDF_FILE mux2.bdf
+set_global_assignment -name BDF_FILE or_vetor_vetor.bdf
+set_global_assignment -name BDF_FILE somador_bit_a_bit.bdf
+set_global_assignment -name BDF_FILE soma.bdf
+set_global_assignment -name BDF_FILE ula.bdf
+set_global_assignment -name BDF_FILE comparador_modular.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_Y23 -to sinal_a
+set_location_assignment PIN_AB23 -to sinal_b
+set_location_assignment PIN_Y24 -to a_3
+set_global_assignment -name MISC_FILE "C:/Users/lema/Desktop/SD/ULA2.0/ulala.dpf"
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_location_assignment PIN_AC27 -to sel_2
+set_location_assignment PIN_AB28 -to sel_0
+set_location_assignment PIN_AC28 -to sel_1
+set_location_assignment PIN_AA22 -to a_2
+set_location_assignment PIN_AA23 -to a_1
+set_location_assignment PIN_AA24 -to a_0
+set_location_assignment PIN_AB24 -to b_3
+set_location_assignment PIN_AC24 -to b_2
+set_location_assignment PIN_AB25 -to b_1
+set_location_assignment PIN_AC25 -to b_0
+set_location_assignment PIN_G19 -to status
+set_location_assignment PIN_F17 -to sinal
+set_location_assignment PIN_E24 -to 3
+set_location_assignment PIN_E25 -to 2
+set_location_assignment PIN_E22 -to 1
+set_location_assignment PIN_E21 -to 0
+set_location_assignment PIN_G18 -to a
+set_location_assignment PIN_F22 -to b
+set_location_assignment PIN_E17 -to c
+set_location_assignment PIN_L26 -to d
+set_location_assignment PIN_L25 -to e
+set_location_assignment PIN_J22 -to f
+set_location_assignment PIN_H22 -to g
+set_location_assignment PIN_M24 -to aa
+set_location_assignment PIN_Y22 -to bb
+set_location_assignment PIN_W21 -to cc
+set_location_assignment PIN_W22 -to dd
+set_location_assignment PIN_W25 -to ee
+set_location_assignment PIN_U23 -to ff
+set_location_assignment PIN_U24 -to gg
+set_global_assignment -name MISC_FILE "C:/Users/frpmn/Desktop/SD/ULA2.0/ulala.dpf"
+set_location_assignment PIN_H21 -to 4
+set_global_assignment -name BDF_FILE LCD.bdf
+set_location_assignment PIN_AA17 -to adea
+set_location_assignment PIN_AB16 -to bdea
+set_location_assignment PIN_AA16 -to cdea
+set_location_assignment PIN_AB17 -to ddea
+set_location_assignment PIN_AB15 -to edea
+set_location_assignment PIN_AA15 -to fdea
+set_location_assignment PIN_AC17 -to gdea
+set_location_assignment PIN_AD17 -to aadea
+set_location_assignment PIN_AE17 -to bbdea
+set_location_assignment PIN_AG17 -to ccdea
+set_location_assignment PIN_AH17 -to dddea
+set_location_assignment PIN_AF17 -to eedea
+set_location_assignment PIN_AG18 -to ffdea
+set_location_assignment PIN_AA14 -to ggdea
+set_location_assignment PIN_AB19 -to adeb
+set_location_assignment PIN_AA19 -to bdeb
+set_location_assignment PIN_AG21 -to cdeb
+set_location_assignment PIN_AH21 -to ddeb
+set_location_assignment PIN_AE19 -to edeb
+set_location_assignment PIN_AF19 -to fdeb
+set_location_assignment PIN_AE18 -to gdeb
+set_location_assignment PIN_AD18 -to aadeb
+set_location_assignment PIN_AC18 -to bbdeb
+set_location_assignment PIN_AB18 -to ccdeb
+set_location_assignment PIN_AH19 -to dddeb
+set_location_assignment PIN_AG19 -to eedeb
+set_location_assignment PIN_AF18 -to ffdeb
+set_location_assignment PIN_AH18 -to ggdeb
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
