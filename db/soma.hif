@@ -1,0 +1,169 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+1220
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+db|
+bloquinhos|
+d:|projeto|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+soma
+# storage
+db|soma.(0).cnf
+db|soma.(0).cnf
+# case_insensitive
+# source_file
+soma.bdf
+1d2ac0e5138dbf56ebcf572a0ffa710
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+A_ou_Ac2
+# storage
+db|soma.(1).cnf
+db|soma.(1).cnf
+# case_insensitive
+# source_file
+a_ou_ac2.bdf
+d1f9161621b5d0f5606ae4f2714f8f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+a_ou_ac2:inst31
+a_ou_ac2:inst23
+a_ou_ac2:inst24
+}
+# macro_sequence
+
+# end
+# entity
+complemento2parasoma
+# storage
+db|soma.(2).cnf
+db|soma.(2).cnf
+# case_insensitive
+# source_file
+complemento2parasoma.bdf
+5a3c541aab58e82dfad12220a8d188e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+a_ou_ac2:inst31|complemento2parasoma:inst4
+a_ou_ac2:inst23|complemento2parasoma:inst4
+a_ou_ac2:inst24|complemento2parasoma:inst4
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|soma.(3).cnf
+db|soma.(3).cnf
+# case_insensitive
+# source_file
+fa.bdf
+e24ca83dc2d7696047e41297d25f3ae5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+a_ou_ac2:inst31|complemento2parasoma:inst4|fa:inst6
+a_ou_ac2:inst31|complemento2parasoma:inst4|fa:inst9
+a_ou_ac2:inst31|complemento2parasoma:inst4|fa:inst10
+a_ou_ac2:inst31|complemento2parasoma:inst4|fa:inst11
+a_ou_ac2:inst31|complemento2parasoma:inst4|fa:inst12
+somador_bit_a_bit:inst25|fa:inst
+somador_bit_a_bit:inst25|fa:inst5
+somador_bit_a_bit:inst25|fa:inst7
+somador_bit_a_bit:inst25|fa:inst6
+somador_bit_a_bit:inst25|fa:inst8
+a_ou_ac2:inst23|complemento2parasoma:inst4|fa:inst6
+a_ou_ac2:inst23|complemento2parasoma:inst4|fa:inst9
+a_ou_ac2:inst23|complemento2parasoma:inst4|fa:inst10
+a_ou_ac2:inst23|complemento2parasoma:inst4|fa:inst11
+a_ou_ac2:inst23|complemento2parasoma:inst4|fa:inst12
+a_ou_ac2:inst24|complemento2parasoma:inst4|fa:inst6
+a_ou_ac2:inst24|complemento2parasoma:inst4|fa:inst9
+a_ou_ac2:inst24|complemento2parasoma:inst4|fa:inst10
+a_ou_ac2:inst24|complemento2parasoma:inst4|fa:inst11
+a_ou_ac2:inst24|complemento2parasoma:inst4|fa:inst12
+}
+# macro_sequence
+
+# end
+# entity
+somador_bit_a_bit
+# storage
+db|soma.(4).cnf
+db|soma.(4).cnf
+# case_insensitive
+# source_file
+somador_bit_a_bit.bdf
+cd2ab1531d3cdfb99481858e8cebb1c4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+somador_bit_a_bit:inst25
+}
+# macro_sequence
+
+# end
+# entity
+comparador_modular
+# storage
+db|soma.(5).cnf
+db|soma.(5).cnf
+# case_insensitive
+# source_file
+comparador_modular.bdf
+8540edf67917c51215aac7b9334668d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+comparador_modular:inst26
+}
+# macro_sequence
+
+# end
+# complete
+

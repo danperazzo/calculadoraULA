@@ -1,0 +1,418 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+1222
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+db|
+bloquinhos|
+d:|projeto|
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+comparador_modular
+# storage
+db|ulala.(5).cnf
+db|ulala.(5).cnf
+# case_insensitive
+# source_file
+comparador_modular.bdf
+8540edf67917c51215aac7b9334668d9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maiorque:inst166|comparador_modular:inst
+maiorque:inst3|comparador_modular:inst
+soma:inst164|comparador_modular:inst26
+soma:inst163|comparador_modular:inst26
+}
+# macro_sequence
+
+# end
+# entity
+A_ou_Ac2
+# storage
+db|ulala.(7).cnf
+db|ulala.(7).cnf
+# case_insensitive
+# source_file
+a_ou_ac2.bdf
+d1f9161621b5d0f5606ae4f2714f8f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164|A_ou_Ac2:inst31
+soma:inst164|A_ou_Ac2:inst23
+soma:inst164|A_ou_Ac2:inst24
+soma:inst163|A_ou_Ac2:inst31
+soma:inst163|A_ou_Ac2:inst23
+soma:inst163|A_ou_Ac2:inst24
+}
+# macro_sequence
+
+# end
+# entity
+complemento2parasoma
+# storage
+db|ulala.(8).cnf
+db|ulala.(8).cnf
+# case_insensitive
+# source_file
+complemento2parasoma.bdf
+5a3c541aab58e82dfad12220a8d188e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4
+}
+# macro_sequence
+
+# end
+# entity
+FA
+# storage
+db|ulala.(9).cnf
+db|ulala.(9).cnf
+# case_insensitive
+# source_file
+fa.bdf
+e24ca83dc2d7696047e41297d25f3ae5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst6
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst9
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst10
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst11
+soma:inst164|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst12
+soma:inst164|somador_bit_a_bit:inst25|FA:inst
+soma:inst164|somador_bit_a_bit:inst25|FA:inst5
+soma:inst164|somador_bit_a_bit:inst25|FA:inst7
+soma:inst164|somador_bit_a_bit:inst25|FA:inst6
+soma:inst164|somador_bit_a_bit:inst25|FA:inst8
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst6
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst9
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst10
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst11
+soma:inst164|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst12
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst6
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst9
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst10
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst11
+soma:inst164|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst12
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst6
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst9
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst10
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst11
+soma:inst163|A_ou_Ac2:inst31|complemento2parasoma:inst4|FA:inst12
+soma:inst163|somador_bit_a_bit:inst25|FA:inst
+soma:inst163|somador_bit_a_bit:inst25|FA:inst5
+soma:inst163|somador_bit_a_bit:inst25|FA:inst7
+soma:inst163|somador_bit_a_bit:inst25|FA:inst6
+soma:inst163|somador_bit_a_bit:inst25|FA:inst8
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst6
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst9
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst10
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst11
+soma:inst163|A_ou_Ac2:inst23|complemento2parasoma:inst4|FA:inst12
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst6
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst9
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst10
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst11
+soma:inst163|A_ou_Ac2:inst24|complemento2parasoma:inst4|FA:inst12
+}
+# macro_sequence
+
+# end
+# entity
+somador_bit_a_bit
+# storage
+db|ulala.(10).cnf
+db|ulala.(10).cnf
+# case_insensitive
+# source_file
+somador_bit_a_bit.bdf
+cd2ab1531d3cdfb99481858e8cebb1c4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164|somador_bit_a_bit:inst25
+soma:inst163|somador_bit_a_bit:inst25
+}
+# macro_sequence
+
+# end
+# entity
+funcao_and
+# storage
+db|ulala.(11).cnf
+db|ulala.(11).cnf
+# case_insensitive
+# source_file
+funcao_and.bdf
+977450181415d63f19c1f79c4018fb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+funcao_and:inst14
+}
+# macro_sequence
+
+# end
+# entity
+halfadd
+# storage
+db|ulala.(13).cnf
+db|ulala.(13).cnf
+# case_insensitive
+# source_file
+halfadd.bdf
+6c3f7b233ad28833f6bba7b9b265be8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Comp2:inst2|halfadd:inst9
+Comp2:inst2|halfadd:inst8
+Comp2:inst2|halfadd:inst3
+Comp2:inst2|halfadd:inst7
+Comp2:inst2|halfadd:inst10
+}
+# macro_sequence
+
+# end
+# entity
+mux2
+# storage
+db|ulala.(1).cnf
+db|ulala.(1).cnf
+# case_insensitive
+# source_file
+mux2.bdf
+94e5abb492c8ff8adce90424d2053cf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+mux2:inst13
+}
+# macro_sequence
+
+# end
+# entity
+funcao_igual
+# storage
+db|ulala.(2).cnf
+db|ulala.(2).cnf
+# case_insensitive
+# source_file
+funcao_igual.bdf
+17b1b14c62683746bc58ce6494e9bc6b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+funcao_igual:inst5
+maiorque:inst166|funcao_igual:aaaaa
+maiorque:inst166|funcao_igual:aaaaa8
+maiorque:inst3|funcao_igual:aaaaa
+maiorque:inst3|funcao_igual:aaaaa8
+}
+# macro_sequence
+
+# end
+# entity
+funcao_xor
+# storage
+db|ulala.(3).cnf
+db|ulala.(3).cnf
+# case_insensitive
+# source_file
+funcao_xor.bdf
+9a881fabfe3d8a1d330b5da3b7ecdac
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+funcao_igual:inst5|funcao_xor:inst
+maiorque:inst166|funcao_igual:aaaaa|funcao_xor:inst
+maiorque:inst166|funcao_igual:aaaaa8|funcao_xor:inst
+maiorque:inst3|funcao_igual:aaaaa|funcao_xor:inst
+maiorque:inst3|funcao_igual:aaaaa8|funcao_xor:inst
+funcao_xor:instinst99
+}
+# macro_sequence
+
+# end
+# entity
+soma
+# storage
+db|ulala.(6).cnf
+db|ulala.(6).cnf
+# case_insensitive
+# source_file
+soma.bdf
+774d71e8cfb22d2e199c1add80de9ffc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164
+soma:inst163
+}
+# macro_sequence
+
+# end
+# entity
+retorna1_sesomaigual0
+# storage
+db|ulala.(15).cnf
+db|ulala.(15).cnf
+# case_insensitive
+# source_file
+retorna1_sesomaigual0.bdf
+8fb999f82a45491a7f7027b86069dd60
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+soma:inst164|retorna1_sesomaigual0:inst4
+soma:inst163|retorna1_sesomaigual0:inst4
+}
+# macro_sequence
+
+# end
+# entity
+maiorque
+# storage
+db|ulala.(4).cnf
+db|ulala.(4).cnf
+# case_insensitive
+# source_file
+maiorque.bdf
+4f3722c2053df5f0bf809ec239dd6d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+maiorque:inst166
+maiorque:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Comp2
+# storage
+db|ulala.(12).cnf
+db|ulala.(12).cnf
+# case_insensitive
+# source_file
+comp2.bdf
+1381a60f08933a03b2ff558732a388
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Comp2:inst2
+}
+# macro_sequence
+
+# end
+# entity
+decot
+# storage
+db|ulala.(14).cnf
+db|ulala.(14).cnf
+# case_insensitive
+# source_file
+decot.bdf
+6d506af6585c7f36d540151291b552bc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+decot:inst9
+decot:inst7
+decot:inst11
+decot:inst12
+}
+# macro_sequence
+
+# end
+# entity
+ula
+# storage
+db|ulala.(0).cnf
+db|ulala.(0).cnf
+# case_insensitive
+# source_file
+ula.bdf
+ce59768a59723b7e322f87db34eee7cf
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+
